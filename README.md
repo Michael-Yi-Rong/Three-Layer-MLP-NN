@@ -17,6 +17,12 @@ conda activate MLP
 pip install -r requirements.txt
 ```
 
+## Prepare the data
+### Download the cifar-10 data (CIFAR-10 python version) from this website and download it to ./data
+```bash
+https://www.cs.toronto.edu/~kriz/cifar.html
+```
+
 ## File structure
 ```bash
 - data/
@@ -42,7 +48,7 @@ python ./train.py
 ```
 
 ## Train the model with grid search
-### Change the parameter combinations in grid_search.py and run it, the model will be saved in "./models/"
+### Change the parameter combinations in grid_search.py and run it, the model will be saved in ./models/
 ```bash
 python ./grid_search.py
 ```
@@ -53,13 +59,13 @@ python ./test.py
 ```
 
 ## Plotting the model
-### Plotting W1 b1 W2 b2 with heatmaps and hists, the plots will be saved in "./plots/"
+### Plotting W1 b1 W2 b2 with heatmaps and hists, the plots will be saved in ./plots/
 ```bash
 python ./plotting.py
 ```
 
 ## Already trained model
-### You can download this from google drive to "./models" and use it, enjoy it!
+### You can download this from google drive to ./models and use it, enjoy it!
 ```bash
 https://drive.google.com/drive/folders/1MHdcqiQxPysy11eNPTZDZQx8h78bJeYr?usp=sharing
 ```
