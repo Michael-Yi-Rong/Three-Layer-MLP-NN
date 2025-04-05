@@ -1,0 +1,2 @@
+Best Parameters: (50, 128, 0.01, 1.0, 0.001, 2560, 'relu')
+Best Validation Accuracy: 0.498
