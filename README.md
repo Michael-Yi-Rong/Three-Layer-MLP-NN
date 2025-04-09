@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 ## Prepare the data
-### Download the cifar-10 data (CIFAR-10 python version) from this website and download it to ./data
+### Download the cifar-10 data (CIFAR-10 python version) from this website and download it to ./data/
 ```bash
 https://www.cs.toronto.edu/~kriz/cifar.html
 ```
